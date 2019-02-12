@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dynamic-programming/Dynamic-programming.iml" filepath="$PROJECT_DIR$/Dynamic-programming/Dynamic-programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linked-List/Linked-List.iml" filepath="$PROJECT_DIR$/Linked-List/Linked-List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chopping-board.iml" filepath="$PROJECT_DIR$/chopping-board.iml" />
+    </modules>
+  </component>
+</project>
