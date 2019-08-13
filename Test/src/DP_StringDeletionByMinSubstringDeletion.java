@@ -20,8 +20,7 @@ class DP_StringDeletionByMinSubstringDeletion
 
     // Function to return the minimum number of 
     // delete operations 
-    static int findMinimumDeletion(int l, int r,
-                                   int dp[][], String s)
+    static int findMinimumDeletion(int l, int r, int dp[][], String s)
     {
         if (l > r)
         {
@@ -48,8 +47,10 @@ class DP_StringDeletionByMinSubstringDeletion
             // delete the letters in between them 
             if (s.charAt(l) == s.charAt(i))
             {
-                res = Math.min(res, findMinimumDeletion(l + 1, i - 1, dp, s)
-                        + findMinimumDeletion(i, r, dp, s));
+                res = Math.min(
+                    res,
+                    findMinimumDeletion(l + 1, i - 1, dp, s) + findMinimumDeletion(i, r, dp, s)
+                );
 
             }
         }
@@ -64,7 +65,9 @@ class DP_StringDeletionByMinSubstringDeletion
     // Driver code 
     public static void main(String[] args)
     {
-        String s = "abcddcba";
+//        String s = "abcddcba";
+        String s = "aba";
+
         int n = s.length();
         int dp[][] = new int[n+1][n+1];
         for (int i = 0; i <= n; i++)
@@ -101,7 +104,7 @@ class DP_StringDeletionByMinSubstringDeletion
                 if(j==0)
                     System.out.print(s.charAt(i)+"\t|\t");
 
-                System.out.print(dp[i][j]+"\t");
+                System.out.print(((dp[i][j]==0)?".":dp[i][j])+"\t");
             }
             System.out.println();
         }

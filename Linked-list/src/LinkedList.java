@@ -75,6 +75,18 @@ public class LinkedList<T> {
         }
     }
 
+    public void printLikeLinkedList() {
+
+        Node tempHead = head;
+        while (null != tempHead) {
+
+            System.out.print(tempHead.printableValue);
+            tempHead = tempHead.next;
+
+            System.out.print((null!=tempHead)?" -> ":".\n");
+        }
+    }
+
     public static void print(LinkedList list) {
 
         Node tempHead = list.head;

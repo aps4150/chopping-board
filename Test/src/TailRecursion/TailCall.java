@@ -1,3 +1,5 @@
+package TailRecursion;
+
 import java.util.stream.Stream;
 
 @FunctionalInterface

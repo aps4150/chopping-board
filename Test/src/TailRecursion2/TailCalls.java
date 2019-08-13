@@ -1,10 +1,12 @@
+package TailRecursion2;
+
 public class TailCalls {
 
-    public static  TailCall call(final TailCall nextCall) {
+    public static TailCall call(final TailCall nextCall) {
         return nextCall;
     }
 
-    public static  TailCall done(final int value) {
+    public static TailCall done(final int value) {
 
         return new TailCall() {
             @Override
