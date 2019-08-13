@@ -4,8 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dynamic-programming/Dynamic-programming.iml" filepath="$PROJECT_DIR$/Dynamic-programming/Dynamic-programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exam/Exam.iml" filepath="$PROJECT_DIR$/Exam/Exam.iml" />
       <module fileurl="file://$PROJECT_DIR$/GFG/GFG.iml" filepath="$PROJECT_DIR$/GFG/GFG.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HackerRank/HackerRank.iml" filepath="$PROJECT_DIR$/HackerRank/HackerRank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/KeyValueFinderFromFolderFiles/Project/KeyValueFinderFromFolderFiles.iml" filepath="$PROJECT_DIR$/Project/KeyValueFinderFromFolderFiles/Project/KeyValueFinderFromFolderFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linked-List/Linked-List.iml" filepath="$PROJECT_DIR$/Linked-List/Linked-List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/PropertyGeneratorFromJSON/Project/PropertyGeneratorFromJSON.iml" filepath="$PROJECT_DIR$/Project/PropertyGeneratorFromJSON/Project/PropertyGeneratorFromJSON.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/chopping-board.iml" filepath="$PROJECT_DIR$/chopping-board.iml" />
